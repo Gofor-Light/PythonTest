@@ -21,7 +21,7 @@ class Solution:
             # 如果当前元素不等于val，将i指针加1
             else:
                 i = i + 1
-        # 返回end指针加1，即删除val后的列表长度
+
         return end + 1
 nums = [3,2,2,3]
 val = 3
