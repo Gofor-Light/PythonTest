@@ -18,7 +18,7 @@ class Solution:
             if nums[i] == val: 
                 nums[i] = nums[end]
                 end = end - 1
-            # 如果当前元素不等于val，将i指针加1
+
             else:
                 i = i + 1
 
